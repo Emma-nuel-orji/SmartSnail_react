@@ -2,7 +2,6 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import GlobalStyles from './styles/GlobalStyles';
 import {light} from './styles/Themes';
-import { BrowserRouter as Routes, Route, Switch, Link } from 'react-router-dom';
 
 
 import Navigation from './components/Navigation';
