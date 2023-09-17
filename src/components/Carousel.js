@@ -20,6 +20,7 @@ import img8 from '../assets/about/about7.jpg';
 import img9 from '../assets/about/about8.jpg';
 import img10 from '../assets/about/about9.jpeg';
 import img11 from '../assets/about/about12.jpg';
+import img12 from '../assets/about/girl.jpg';
 
 import Arrow from '../assets/Arrow.svg';
 
@@ -133,7 +134,7 @@ const Carousel = () => {
         modules={[EffectCards, Pagination, Navigation, Autoplay]}
         className="mySwiper"
       >
-        <Link to="ejhgnffbjhef">
+        <Link to="https://smartsnailnft.onrender.com/">
         <SwiperSlide> <img src={img1} alt="Smart Snail." /> </SwiperSlide>
         </Link>
         
@@ -147,6 +148,7 @@ const Carousel = () => {
         <SwiperSlide> <img src={img9} alt="Smart Snail." /> </SwiperSlide>
         <SwiperSlide> <img src={img10} alt="Smart Snail." /> </SwiperSlide>
         <SwiperSlide> <img src={img11} alt="Smart Snail." /> </SwiperSlide>
+        <SwiperSlide> <img src={img12} alt="Smart Snail." /> </SwiperSlide>
       </Swiper>
     </Container>
   )

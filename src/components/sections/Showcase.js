@@ -42,14 +42,14 @@ overflow: hidden;
   animation-duration: 20s;
 
   @media (max-width: 30em){
-    animation-duration: 15s;
+    animation-duration: 35s;
   }
 }
 &>*:last-child{
   animation-duration: 15s;
 
   @media (max-width: 30em){
-    animation-duration: 10s;
+    animation-duration: 30s;
   }
 }
 `
@@ -111,13 +111,14 @@ span{
   
 }
 
-h1{
+h6{
   font-size: ${props => props.theme.fontsm};
   color: ${props => props.theme.body};
   font-weight:600;
 
   @media (max-width: 30em){
-    font-size: ${props => props.theme.fontsm};
+    font-size: ${props => props.theme.fontxs};
+    font-weight:200;
   }
 }
 `
@@ -148,7 +149,7 @@ let pause = (e) => {
     <Details>
       <div>
         <span>SmartSnail</span> <br />
-        <h1>{number}</h1>
+        <h6>{number}</h6>
       </div>
       
       <div>

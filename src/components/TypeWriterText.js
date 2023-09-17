@@ -75,7 +75,7 @@ align-self: flex-start;
 
 @media (max-width: 48em){
   align-self: center;
-  text-align: center;
+  // text-align: center;
 }
 `
 const ButtonContainer = styled.div`
