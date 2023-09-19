@@ -21,7 +21,7 @@ margin: 1rem auto;
 border-bottom: 2px solid ${(props) => props.theme.text};
 width: fit-content;
 
-@media (max-width: 48em){
+@media (max-width: 78em){
   font-size: ${(props) => props.theme.fontxl};
 }
 `
@@ -41,7 +41,7 @@ position: relative;
   padding-top: 50px;
 }
 
-@media (max-width: 48em){
+@media (max-width: 78em){
   width: 90%;
   // padding-top: 400px;
   height: 500vh;
@@ -72,16 +72,17 @@ align-items:center;
 // background-color: lightblue;
 padding-top: 50px;
 
-@media (max-width: 48em){
-  width: 90%;
+@media (max-width: 70em){
+  width: 100%;
   padding-top: 0;
+
 
 }
 
 &>*:nth-of-type(2n +1){
   justify-content: start;
 
-  @media (max-width: 48em){
+  @media (max-width: 70em){
     justify-content: center;
   }
 
@@ -89,7 +90,7 @@ padding-top: 50px;
     border-radius: 50px 0 50px 0;
     // text-align: right;
 
-    @media (max-width: 48em){
+    @media (max-width: 70em){
       border-radius: 0 50px 0 50px;
       text-align: left;
 
@@ -105,7 +106,7 @@ padding-top: 50px;
 &>*:nth-of-type(2n){
   justify-content: end;
 
-  @media (max-width: 48em){
+  @media (max-width: 70em){
     justify-content: center;
   }
 
@@ -125,7 +126,7 @@ width: 100%;
 height: 100%;
 display:flex;
 
-@media (max-width: 48em){
+@media (max-width: 70em){
   justify-content: flex-end !important;
 
 }
@@ -136,8 +137,8 @@ height: fit-content;
 padding: 1rem;
 border: 3px solid ${props => props.theme.text};
 
-@media (max-width: 48em){
-  width: 70%;
+@media (max-width: 78em){
+  width: 66%;
 }
 
 `
@@ -155,7 +156,7 @@ font-size: ${props => props.theme.fontxl};
 text-transform: capitalize;
 color: ${props => props.theme.text};
 
-@media (max-width: 48em){
+@media (max-width: 70em){
   font-size: ${(props) => props.theme.fontlg};
   font-weight: 600;
 }

@@ -42,13 +42,13 @@ overflow: hidden;
   animation-duration: 20s;
 
   @media (max-width: 30em){
-    animation-duration: 35s;
+    animation-duration: 39s;
   }
 }
 &>*:last-child{
   animation-duration: 15s;
 
-  @media (max-width: 30em){
+  @media (max-width: 35em){
     animation-duration: 30s;
   }
 }

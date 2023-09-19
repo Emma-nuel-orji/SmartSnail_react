@@ -26,7 +26,7 @@ align-items: center;
 }
 
 
-@media (max-width: 64em){
+@media (max-width: 74em){
   width: 100%;
   flex-direction: column;
 
@@ -110,33 +110,35 @@ width: 100%;
 margin: 1rem auto;
 font-weight:400;
 
-@media (max-width: 64em){
+@media (max-width: 74em){
   width: 100%;
-  text-align: center;
+  // text-align: center;
   font-size: ${props => props.theme.fontsm};
 }
 
 @media (max-width: 40em){
   font-size: ${props => props.theme.fontsm};
-  text-align: center;
+  // text-align: center;
   width: 100%;
 }
 
 @media (max-width: 30em){
   font-size: ${props => props.theme.fontsx};
-  text-align: center;
+  // text-align: center;
   width: 100%;
   
 }
 `
 
 const ButtonContainer = styled.div`
-width: 80%;
+width: 100%;
 margin: 1rem auto;
 display: flex;
 align-self: flex-start;
 
-@media (max-width: 64em){
+
+
+@media (max-width: 74em){
   width: 100%;
 
   button{
@@ -145,6 +147,7 @@ align-self: flex-start;
 }
 
 `
+
 
 
 const About = () => {
@@ -162,7 +165,7 @@ const About = () => {
         </SubText>
         <SubTextLight>
           <Link to="https://smartsnailnft.onrender.com/#entertainment">
-          ✅ <i style={{color: 'Violet', textDecoration: 'underline' }}>Entertainment</i> ( we are building Metaverse cinema where movies and music would be watched in the metaverses in a watch to earn mechanism.) ..... <br/>
+        ✅ <i style={{color: 'Violet', textDecoration: 'underline' }}>Entertainment</i> ( we are building Metaverse cinema where movies and music would be watched in the metaverses in a watch to earn mechanism.) ..... <br/>
           </Link> <br />
         <Link to="https://smartsnailnft.onrender.com/#fitnes">
         ✅ <i style={{color: 'Violet', textDecoration: 'underline' }}>Fitness </i>  and wellness (our NFTs would serve as tickets to gym facilities and Metaverse AR fitness experiences which works with move to earn mechanism) ..... <br/>
@@ -177,7 +180,8 @@ const About = () => {
 
         </SubTextLight>
         <ButtonContainer>
-        <ThemeProvider theme={dark}>
+         
+            <ThemeProvider theme={dark}>
           <Link to="https://discord.gg/hbkPNd4g">
             <Button text="JOIN OUR DISCORD" link="https://discord.gg/hbkPNd4g" />
           </Link>
@@ -185,11 +189,13 @@ const About = () => {
         </ThemeProvider>
 
         <ThemeProvider theme={dark}>
-          <Link to="https://discord.gg/hbkPNd4g">
-            <Button text="How It Works" link="https://discord.gg/hbkPNd4g" />
+          <Link to="https://smartsnailnft.onrender.com/">
+            <Button text="How It Works" link="https://smartsnailnft.onrender.com/" />
           </Link>
           
         </ThemeProvider>
+         
+        
         </ButtonContainer>
 
        

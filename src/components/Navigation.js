@@ -237,7 +237,7 @@ const scrollTo = (id) => {
             <div className="mobile">
    
             <Link onClick={connectWallet}>
-              {walletAddress && walletAddress.length > 0 ? `Connected: ${walletAddress.substring(0, 6)}...${walletAddress.substring(38)}` : <Button text="Connect Wallect"/>}
+              {walletAddress && walletAddress.length > 0 ? `Connected: ${walletAddress.substring(0, 6)}...${walletAddress.substring(38)}` : <Button text="Connect Wallet"/>}
 
               {/* <Button text="Connect Wallet" /> */}
             </Link>
@@ -249,7 +249,7 @@ const scrollTo = (id) => {
        
        <Link onClick={connectWallet}>
         
-          {walletAddress && walletAddress.length > 0 ? `Connected: ${walletAddress.substring(0, 6)}...${walletAddress.substring(38)}` : <Button text="Connect Wallect"/>}
+          {walletAddress && walletAddress.length > 0 ? `Connected: ${walletAddress.substring(0, 6)}...${walletAddress.substring(38)}` : <Button text="Connect Wallet"/>}
       
        </Link>
         

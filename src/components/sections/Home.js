@@ -24,11 +24,11 @@ display: flex;
 justify-content: center;
 align-items: center;
 
-@media (max-width: 64em) {
+@media (max-width: 74em) {
   width: 85%;
 }
 
-@media (max-width: 55em) {
+@media (max-width: 75em) {
   padding-top: 30px;
   flex-direction: column-reverse;
   width: 100%;
@@ -70,7 +70,7 @@ img{
   animation: ${rotate} 6s linear infinite reverse ;
 }
 
-@media (max-width: 64em){
+@media (max-width: 74em){
   width: 4rem;
   height: 4rem;
   left: none;

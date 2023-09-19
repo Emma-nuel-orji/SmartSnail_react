@@ -19,7 +19,7 @@ svg{
   height: 100%;
 }
 
-@media (max-width: 48em){
+@media (max-width: 70em){
   left: 1rem;
 }
 `
@@ -42,7 +42,7 @@ border-radius: 50%;
 background-color: ${props => props.theme.text};
 animation: ${Bounce} 0.5s linear infinite alternate;
 
-@media (max-width: 48em){
+@media (max-width: 70em){
   left: 1rem;
 }
 `

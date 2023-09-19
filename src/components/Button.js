@@ -6,7 +6,7 @@ import styled from 'styled-components'
 const Btn = styled.button`
 display: inline-block;
 background-color: purple ;
-${props => props.theme.text}
+
 color: ${props => props.theme.body};
 outline: none;
 border: none;

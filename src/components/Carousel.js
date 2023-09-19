@@ -20,7 +20,7 @@ import img8 from '../assets/about/about7.jpg';
 import img9 from '../assets/about/about8.jpg';
 import img10 from '../assets/about/about9.jpeg';
 import img11 from '../assets/about/about12.jpg';
-import img12 from '../assets/about/girl.jpg';
+
 
 import Arrow from '../assets/Arrow.svg';
 
@@ -30,12 +30,12 @@ height: 70vh;
 
 @media (max-width: 70em){
   height: 60vh;
-  
+
 }
 
 @media (max-width: 64em){
   height: 50vh;
-  width: 30vw;
+  width: 50vw;
 }
 
 @media (max-width: 48em){
@@ -148,7 +148,7 @@ const Carousel = () => {
         <SwiperSlide> <img src={img9} alt="Smart Snail." /> </SwiperSlide>
         <SwiperSlide> <img src={img10} alt="Smart Snail." /> </SwiperSlide>
         <SwiperSlide> <img src={img11} alt="Smart Snail." /> </SwiperSlide>
-        <SwiperSlide> <img src={img12} alt="Smart Snail." /> </SwiperSlide>
+        
       </Swiper>
     </Container>
   )

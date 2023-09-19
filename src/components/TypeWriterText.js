@@ -31,6 +31,8 @@ span{
 
 @media (max-width: 70em){
   font-size: ${(props) => props.theme.fontxl};
+  align-self: center;
+  text-align: center;
 }
 
 @media (max-width: 48em){
@@ -52,9 +54,10 @@ width: 80%;
 align-self: flex-start;
 // padding-top:15px;
 
-@media (max-width: 40em){
+@media (max-width: 70em){
   font-size: ${(props) => props.theme.fontmd};
-
+  align-self: center;
+  text-align: center;
 }
 
 @media (max-width: 48em){
@@ -73,8 +76,9 @@ margin-bottom: 1rem;
 width: 80%;
 align-self: flex-start;
 
-@media (max-width: 48em){
+@media (max-width: 78em){
   align-self: center;
+  justify-alignment: center;
   // text-align: center;
 }
 `
@@ -82,7 +86,7 @@ const ButtonContainer = styled.div`
 width: 80%;
 align-self: flex-start;
 
-@media (max-width: 48em){
+@media (max-width: 78em){
   align-self: center;
   text-align: center;
   padding-bottom: 20px;
